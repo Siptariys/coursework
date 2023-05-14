@@ -1,0 +1,4 @@
+﻿  Student.cpp
+C:\Users\Sipta\source\repos\Student\Student.cpp(23,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Sipta\source\repos\Student\Student.cpp(105,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Student.vcxproj -> C:\Users\Sipta\source\repos\Student\x64\Debug\Student.exe
