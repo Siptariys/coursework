@@ -163,7 +163,7 @@ int main()
 	cout << "Общее количесвто итераций: " << counterFunctionLeft() + counterFunctionRight() << endl;
 	cout << "Количество проходов СЛЕВА НАПРАВО -> :" << counterFunctionRight() << endl;
 	cout << "Количество проходов СПРАВА НАЛЕВО <- :" << counterFunctionLeft() << endl;
-	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);
+	auto duration = chrono::duration_cast<chrono::milliseconds>(endTime - startTime);
 	cout << "Время затраченное на выполнение: " << duration.count() << " мс " << endl;// Итого времени понадобилось для выполнения алгоритма
 	system("pause");
 	return 0;
